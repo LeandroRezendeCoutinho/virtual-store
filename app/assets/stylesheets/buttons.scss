@@ -1,0 +1,35 @@
+@import "colors.scss";
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button.small {
+  padding: 5px 15px;
+}
+
+.button.normal {
+  padding: 10px 30px;
+}
+
+.button.big {
+  padding: 15px 45px;
+}
+
+.button.blue {
+  background-color: $pastel-blue;
+}
+
+.button.green {
+  background-color: $pastel-green;
+}
+
+.button.pink {
+  background-color: $pastel-pink;
+}
