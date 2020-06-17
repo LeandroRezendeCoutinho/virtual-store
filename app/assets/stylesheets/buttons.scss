@@ -8,6 +8,7 @@
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .button.small {
@@ -27,7 +28,7 @@
 }
 
 .button.green {
-  background-color: $pastel-green;
+  background-color: $cyan-green;
 }
 
 .button.pink {
